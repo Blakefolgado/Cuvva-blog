@@ -1,0 +1,32 @@
+<div class="footer-widgets">
+	<div class="inner-wide">
+		<div class="widget-area">
+			<div class="footer-col first">
+				<aside class="widget widget-recent-posts">
+					<h2 class="widget-title">Latest Posts</h2>
+					<div class="recent-posts"></div>
+				</aside><!-- .widget -->
+			</div>
+			<div class="footer-col last">
+				<aside class="widget widget-tags">
+					<h2 class="widget-title">Tags</h2>
+					<div class="tagcloud"></div>
+				</aside><!-- .widget -->
+			</div>
+		</div><!-- .widget-area -->
+	</div><!-- .inner-wide -->
+</div><!-- .footer-widgets -->
+
+<footer class="site-footer">
+	<div class="footer-top">
+		<div class="inner-wide">
+			<div class="offsite-links">
+				{{#if @blog.twitter}}<a href="{{twitter_url}}" class="icon-twitter"><span class="screen-reader-text">Twitter</span></a>{{/if}}
+				{{#if @blog.facebook}}<a href="{{facebook_url}}" class="icon-facebook"><span class="screen-reader-text">Facebook</span></a>{{/if}}
+				<a href="https://www.linkedin.com/company/10361805{{! Add Linkedin handle }}" class="icon-linkedin"><span class="screen-reader-text">Linkedin</span></a>
+				<a href="https://medium.com/@Cuvva{{! Add Medium handle }}" class="icon-medium"><span class="screen-reader-text">Medium</span></a>
+				<a href="https://www.instagram.com/getcuvva{{!@getcuvva }}" class="icon-instagram"><span class="screen-reader-text">Instagram</span></a>
+			<a href="#page" class="top-link square icon-chevron-up" title="Back to Top"><span class="screen-reader-text">Back to the top</span></a>
+		</div><!-- .inner -->
+	</div><!-- .footer-top -->
+</footer><!-- .site-footer -->
