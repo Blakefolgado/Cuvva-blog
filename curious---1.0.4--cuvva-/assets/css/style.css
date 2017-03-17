@@ -739,13 +739,13 @@ video {
 
 /* Text selection */
 ::-moz-selection {
-	background: #2F319E;
+	background: #E8E8FF;
 	color: #111;
 	text-shadow: none;
 }
 
 ::selection {
-	background: #2F319E;
+	background: #E8E8FF;
 	color: #111;
 	text-shadow: none;
 }
@@ -827,8 +827,8 @@ pre .storage {
 
 .button:hover,
 .square:hover {
-	background-color: #2F319E;
-	border-color: #2F319E;
+	background-color: #6666FF;
+	border-color: #6666FF;
 	color: #fff;
 }
 
@@ -1156,12 +1156,12 @@ pre .storage {
 
 .post-meta a {
 	border-color: transparent;
-	color: #2F319E;
+	color: #fff;
 }
 
 .post-meta a:hover {
-	border-color: #fff;
-	color: #fff;
+	border-color: #6666FF;
+	color: #6666FF;
 }
 
 .tag-template .post-meta a,
@@ -1378,7 +1378,7 @@ pre .storage {
 	background-size: cover;
 	bottom: 0;
 	left: 0;
-	opacity: 0.4;
+	opacity: 0.7;
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -1419,7 +1419,7 @@ pre .storage {
 }
 
 .hero-wrap {
-	border-left: 7px solid #2F319E;
+	border-left: 7px solid #fff;
 	padding-left: 45px;
 }
 
